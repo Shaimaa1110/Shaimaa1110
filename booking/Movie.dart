@@ -13,6 +13,16 @@ _price = p;
 _id=currentId++;
 }
 
+
+  set name(String value) {
+    _name = value;
+  }
+
+
+  set date(value) {
+    _date = value;
+  }
+
   double get price => _price;
 
   get venue => _venue;
@@ -24,4 +34,16 @@ _id=currentId++;
   String get name => _name;
 
   int get id => _id;
+
+  set time(value) {
+    _time = value;
+  }
+
+  set venue(value) {
+    _venue = value;
+  }
+
+  set price(double value) {
+    _price = value;
+  }
 }
